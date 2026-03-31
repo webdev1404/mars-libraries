@@ -1,0 +1,10 @@
+.popup {
+    position: absolute;
+    z-index: 1000;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 10px 15px;
+    background: var(--list-background);
+    color: var(--list-color);
+    max-width: 500px;
+}

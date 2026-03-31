@@ -1,0 +1,9 @@
+.tooltip {
+    position: absolute;
+    z-index: 101;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    background: var(--tooltip-background);
+    color: var(--tooltip-color);
+}

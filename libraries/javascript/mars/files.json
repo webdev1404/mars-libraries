@@ -1,0 +1,34 @@
+{
+  "js": [
+    "js/mars.js",
+    "js/base/json.js",
+    "js/base/lang.js",
+    "js/base/random.js",
+    "js/base/url.js",
+    "js/base/array.js",
+    "js/base/position.js",
+    "js/base/cookie.js",
+    "js/base/ajax.js",
+    "js/html/forms.js",
+    "js/ui/ui.js",
+    "js/ui/container.js",
+    "js/ui/item.js",
+    "js/tooltips/tooltips.js",
+    "js/loading/loading.js",
+    "js/alerts/alerts.js",
+    "js/alerts/alerts-input.js",
+    "js/popups/popups.js",
+    "js/modals/modals.js",
+    "js/modals/modals-alerts.js",
+    "js/tabs/tabs.js"
+  ],
+  "css": [
+    "css/globals.css",
+    "css/tooltips.css",
+    "css/loading.css",
+    "css/alerts.css",
+    "css/modals.css",
+    "css/popups.css",
+    "css/tabs.css"
+  ]
+}

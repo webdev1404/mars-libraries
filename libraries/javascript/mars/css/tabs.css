@@ -1,0 +1,46 @@
+.tabs {
+    overflow-x: hidden;
+    margin: 32px 0;
+    padding-bottom: 16px;
+}
+
+.tabs > ul {
+    display: flex;
+    align-items: start;
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabs > ul > li {
+    display: block;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #ededed;
+    font-size: 12px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #595959;
+    cursor: pointer;
+}
+
+.tabs > ul > li.current {
+    border-bottom-color: #fff;
+    border-top-color: #f00;
+    background: #fff;
+    color: #595959;
+}
+
+.tabs > ul > li:hover {
+    border-top-color: #595959;
+    color: #595959;
+}
+
+.tabs > div {
+    display: none;
+    color: #959595;
+}
+
+.tabs > div.current {
+    display: block;
+}

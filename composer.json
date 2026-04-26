@@ -1,0 +1,19 @@
+{
+    "name": "webdev1404/mars-libraries",
+    "type": "mars-framework-extensions",
+    "description": "Mars Framework Css/JS Libraries",
+    "require": {
+        "webdev1404/mars-framework": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Razvan Chis",
+            "email": "sargon1404@gmail.com"
+        },
+        {
+            "name": "Adrian Razvan Chis",
+            "email": "sargon1404@webdev1404.com"
+        }
+    ]
+}

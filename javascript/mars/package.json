@@ -1,0 +1,8 @@
+{
+  "name": "@webdev1404/mars",
+  "version": "1.0.1",
+  "description": "Javascript library used by the Mars Framework. Can be used separately as well.",
+  "type": "module",
+  "author": "Adrian Razvan Chis",
+  "license": "MIT"
+}

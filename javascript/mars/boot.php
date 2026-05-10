@@ -4,7 +4,7 @@ if (!defined('MARS')) {
 }
 
 if ($this->development) {
-    $files = $app->json->decode(file_get_contents(__DIR__ . '/files.json'));
+    $files = $this->app->json->decode(file_get_contents(__DIR__ . '/files.json'));
     
     foreach ($files['js'] as $file) {
         $this->document->js->load($this->library_url . '/' . $file, 'footer', attributes: ['defer' => true]);
